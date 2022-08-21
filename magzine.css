@@ -16,13 +16,13 @@ body {
 
 /* Book */
 img{
-    width: 550px;
-    height: 700px;
+    width: 420px;
+    height: 570px;
 }
 .book {
     position: relative;
-    width: 550px;
-    height: 700px;
+    width: 420px;
+    height: 570px;
     transition: transform 0.5s;
 }
 
@@ -82,7 +82,7 @@ button {
     border: none;
     background-color: transparent;
     cursor: pointer;
-    margin: 120px;
+    margin: 45px;
     transition: transform 0.5s;
 }
 
