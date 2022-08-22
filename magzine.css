@@ -5,13 +5,11 @@
 }
 
 body {
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
     align-items: center;
-
     font-family: sans-serif;
-    background-color: powderblue;
 }
 
 /* Book */
@@ -170,4 +168,71 @@ i {
 
 #p18 {
     z-index: 1;
+}
+
+@media (max-width: 1000px){
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        margin: 2px;
+        transition: transform 0.5s;
+    }
+    .book {
+        position: relative;
+        width: 320px;
+        height: 470px;
+        transition: transform 0.5s;
+    }
+    img{
+        width: 320px;
+        height: 470px;
+    }
+}
+
+@media (max-width: 800px){
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        margin: -60px;
+        transition: transform 0.5s;
+    }
+    .book {
+        position: relative;
+        width: 220px;
+        height: 370px;
+        transition: transform 0.5s;
+    }
+    img{
+        width: 220px;
+        height: 370px;
+    }
+    i {
+        font-size: 30px;
+        color: gray;
+    }
+}
+@media (max-width: 530px){
+    button {
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        margin: -80px;
+        transition: transform 0.5s;
+    }
+    .book {
+        position: relative;
+        width: 180px;
+        height: 270px;
+        transition: transform 0.5s;
+    }
+    img{
+        width: 180px;
+        height: 270px;
+    }
+    i {
+        font-size: 20px;
+        color: gray;
+    }
 }
